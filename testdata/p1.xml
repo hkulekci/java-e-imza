@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-Id-1e6d8767-4a96-43b1-bf7f-08bc19b2544a">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference Id="Reference-Id-f0afeaa0-6ffa-42d3-8fb8-6afca2048098" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signed-Properties-Id-dcb6afc0-a927-4e5b-9aaa-281f8e35d3f9">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>7BCzhsbp4zAK8CUhiujK/WyWKY+B4QGFBXzq8on301E=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-Id-51a92598-f053-4209-961b-e775c4f57911" URI="./sample.txt">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ZS2mLkRcnP9/FtDoJ87//BO7Fl3xK8Lpmgzmm4+cJiM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="Signature-Value-Id-176b6c96-c1f1-4b00-98e9-ed80a485bb9f">hNnczzztr6zMPzJ7NVRLVoIGbF//G99N++Uw1FFA4eu/eLFjykS0oLwCGLIzRatuSwXH+9rfQj04
+ilrUlt2qtkpkE67E1KgNojYIku+8ayZp556XWV7SB8e/J0emG2a4fqz9uNOyX/MpPmJF7Y81yWYH
+T0SGecVW8V0TxSZqNOxS4eLbexptF3snBv3AATmMThl2CxC4k5WbLm36AuMOD5IUsQkmto1ynRzd
+kp6aGhASeNcD/9mmOrZYSKaLr2Kc91mFqWKsDGsUEiXXwsW//1I804Z4rtsWyLVWHQk4tvJqegOu
+ClaWPhB+MhHMVyKbxPBCgbhEXnqYN/CVSQGy9g==</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>MIIGSTCCBTGgAwIBAgIILCIgedhvzi4wDQYJKoZIhvcNAQELBQAwgdUxCzAJBgNVBAYTAlRSMQ8w
+DQYDVQQHDAZBbmthcmExQDA+BgNVBAoMN0UtVHXEn3JhIEVCRyBCaWxpxZ9pbSBUZWtub2xvamls
+ZXJpIHZlIEhpem1ldGxlcmkgQS7Fni4xJzAlBgNVBAsMHkUtVHXEn3JhIFNlcnRpZmlrYXN5b24g
+TWVya2V6aTFKMEgGA1UEAwxBRS1UdcSfcmEgTml0ZWxpa2xpIEVsZWt0cm9uaWsgU2VydGlmaWth
+IEhpem1ldCBTYcSfbGF5xLFjxLFzxLEgdjIwHhcNMTcxMTIxMTMxODEwWhcNMjAxMTE1MDEwMzAw
+WjA5MQswCQYDVQQGEwJUUjEUMBIGA1UEBRMLMTUwNDMxMTYxNjgxFDASBgNVBAMMC1lVTlVTIFlF
+TkVSMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3e9vH8LxBzlGTv7KV3w0nRfyYFO9
+jDZLaYgxxRxYr9tvquSykrs2tGZbrYZiH7l6BORt07AR9ceioEcR18fYgeOyMtvzKYOjdocMfYUg
+sjnY28rH2ABEcs6X8gcqjMa3YIZg2/lmbKvyOqMm1xmkdJ9hWL7uFOu/rIAQpMCmEuZoBKwmHS12
+LlOLmOVdpvZGU0xRfdQQdwdjSYIQe+RcVXI69U51SgfXi/iCd+gBjSihBcg5zHqA6bM3e0NvqK+Z
+PMJWrCsJTOOAi8FMjn7TwQbruMxi1dQTsoX2YzQowRzdi8eKBziIuKJW/7mzqFPZe4bTgHprCoN2
+ns1faLE48wIDAQABo4ICtjCCArIwCQYDVR0TBAIwADAfBgNVHSMEGDAWgBRtOjV+cXst6L9byH9j
+1RjhF9sjEjB5BggrBgEFBQcBAQRtMGswOAYIKwYBBQUHMAKGLGh0dHA6Ly93d3cuZS10dWdyYS5j
+b20vY3J0L2V0dWdyYV9uZXNfdjIuY3J0MC8GCCsGAQUFBzABhiNodHRwOi8vb2NzcC5lLXR1Z3Jh
+LmNvbS9zdGF0dXMvb2NzcDCBswYDVR0gBIGrMIGoMIGlBglghhgDAAQBAQEwgZcwJgYIKwYBBQUH
+AgEWGmh0dHA6Ly93d3cuZS10dWdyYS5jb20vY3BzMG0GCCsGAQUFBwICMGEMX0J1IHNlcnRpZmlr
+YSwgNTA3MCBzYXnEsWzEsSBFbGVrdHJvbmlrIMSwbXphIEthbnVudW5hIGfDtnJlIE5pdGVsaWts
+aSBFbGVrdHJvbmlrIFNlcnRpZmlrYWTEsXIuMIG3BggrBgEFBQcBAwSBqjCBpzAKBggrBgEFBQcL
+AjAIBgYEAI5GAQEwFQYGBACORgECMAsTA1RSWQIBAAIBADAIBgYEAI5GAQQwbgYLYIYYAT0AAadO
+AQEMX0J1IHNlcnRpZmlrYSwgNTA3MCBzYXnEsWzEsSBFbGVrdHJvbmlrIMSwbXphIEthbnVudW5h
+IGfDtnJlIE5pdGVsaWtsaSBFbGVrdHJvbmlrIFNlcnRpZmlrYWTEsXIuMGoGA1UdHwRjMGEwLqAs
+oCqGKGh0dHA6Ly9jcmwuZS10dWdyYS5jb20vZXR1Z3JhX25lc192Mi5jcmwwL6AtoCuGKWh0dHA6
+Ly9jcmwxLmUtdHVncmEuY29tL2V0dWdyYV9uZXNfdjIuY3JsMB0GA1UdDgQWBBTO3rwBD3bz0r0X
+KJO44XndEvJcTjAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggEBAHmG6Ghe/wer7R7m
+PGHE80lfE9ScEjx3aSRseG98VufZPRrilYSK/6SE7aV/BNfE8v0Flek3edI5Yeqkr7YvWEeJnq2F
+b2tfpZMRvZT1SjATXCfS1Zb2plp7V+7l3+KhHUsvtX+rwK9aGn6Dtzk+bRvAfjCOhDvPWo+DAYnp
+7h/hLqJnhFT/v42eojjAP9OQdV3vazf/PceN6C7U7XbTMnzO7WcGPg3Z1vaZ3B4TMx5CMZ80qMtz
+dyTEL3oDF4Ck/2AyK0g2zG4h5HhJctb23cG/kueQc6BWjJMKa7NiyIW8HIicTJE1z5vcxYd0x5tW
+GHI8qcjgkF9SLGu1juJClYg=</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object Id="Object-Id-fa7f6095-d031-4ef5-8e10-416297a44c0f"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-Id-1e6d8767-4a96-43b1-bf7f-08bc19b2544a">
+<xades:SignedProperties Id="Signed-Properties-Id-dcb6afc0-a927-4e5b-9aaa-281f8e35d3f9">
+<xades:SignedSignatureProperties>
+<xades:SigningTime>2018-03-21T15:42:02.495+03:00</xades:SigningTime>
+<xades:SigningCertificate>
+<xades:Cert>
+<xades:CertDigest>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>7Nph48sxPQ9IHoVUZv3z0Rkm8UHYBR/NRKxZreufWy4=</ds:DigestValue>
+</xades:CertDigest>
+<xades:IssuerSerial>
+<ds:X509IssuerName>CN=E-Tuğra Nitelikli Elektronik Sertifika Hizmet Sağlayıcısı v2,OU=E-Tuğra Sertifikasyon Merkezi,O=E-Tuğra EBG Bilişim Teknolojileri ve Hizmetleri A.Ş.,L=Ankara,C=TR</ds:X509IssuerName>
+<ds:X509SerialNumber>3180139994571329070</ds:X509SerialNumber>
+</xades:IssuerSerial>
+</xades:Cert>
+</xades:SigningCertificate>
+</xades:SignedSignatureProperties>
+<xades:SignedDataObjectProperties>
+<xades:DataObjectFormat ObjectReference="#Reference-Id-51a92598-f053-4209-961b-e775c4f57911">
+<xades:MimeType>text/plain</xades:MimeType>
+</xades:DataObjectFormat>
+</xades:SignedDataObjectProperties>
+</xades:SignedProperties>
+</xades:QualifyingProperties>
+</ds:Object>
+</ds:Signature>
